@@ -1,0 +1,84 @@
+.productShow{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding: 15px 0 ;
+    background: linear-gradient(30deg, #0033ff, rgb(224, 111, 45));
+
+
+}
+
+.productShowItem{
+    height: 100%;
+    width: 90%;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.productInfo{
+    border-radius: 10px 0 0 10px;
+    display: block;
+    background-color: black;
+padding-left: 50px;   
+}
+.productInfoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: space-around;
+    padding: 10px;
+}
+.productInfoTitle{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.productInfoTitleSpan{
+    color: #0033ff;
+}
+.productImage{
+    border-radius: 0 10px 10px 0;
+     background-image: url('./iphone.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.productShowbutton{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: #0033ff;
+    border-color: #0033ff;
+}
+
+
+.productShowBnt{
+    height: 15%;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    border-radius: 10px;
+}
+
+
+.productInfoDescription{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
