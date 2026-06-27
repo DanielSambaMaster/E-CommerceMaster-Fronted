@@ -18,7 +18,27 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+.productItem{
+    top: -50px;
+    position:absolute;
+    height: 150px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: pink;
 
+    border: 1px solid grey;
+    }
+
+.productItemContainer{
+   height: 1000px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+  
+
+    background-color: rgb(255, 255, 255);
+    
+}
 .productInfo{
     border-radius: 10px 0 0 10px;
     display: block;
@@ -31,6 +51,15 @@ padding-left: 50px;
     justify-content: start;
     align-items: space-around;
     padding: 10px;
+}
+
+.productItem2{
+    height:45%;
+    margin-top: 160px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+
 }
 .productInfoTitle{
     font-size: 55px;

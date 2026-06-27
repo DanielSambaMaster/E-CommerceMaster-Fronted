@@ -23,6 +23,34 @@ export default function Product() {
 
     </div>
    </div>
+   <ProductItem/>
+  
    </>
   );
 }
+
+
+export function ProductItem() {
+  return (
+    <div className={productStyle.productItemContainer}>                      
+ <div className={productStyle.productItem}>
+    
+    
+    
+    </div>   
+  <ProductItem2/>
+
+    </div>
+  );
+}
+
+
+export function ProductItem2() {
+  return (
+    <>
+    <div className={productStyle.productItem2}> </div>
+    
+    </>
+  )
+
+} 
